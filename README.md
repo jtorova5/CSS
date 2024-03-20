@@ -1,2 +1,2 @@
 # clases-Riwi
-Repositorio para guardar las notas hechas en la clase de desarrollo de software aplicado a css
+Repositorio para almacenar y realizar pruebas de css3
