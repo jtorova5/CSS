@@ -1,5 +1,27 @@
+body {
+    background-color: #525252;
+}
+
 h1 {
     text-align: center;
     color: #0FB0B0;
     text-transform: capitalize;
+}
+
+/* Selección mediante el nombre de la etiqueta */
+
+#parrafo1 {
+    color: #E5D224;
+}
+
+#parrafo2 {
+    color: #0A1D70;
+}
+
+#parrafo3 {
+    color: #832020;
+}
+
+.transformar-texto-en-mayusculas {
+    text-transform: uppercase;
 }
