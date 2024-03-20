@@ -1,0 +1,62 @@
+
+MODELO DE CAJAS
+
+El modelo de cajas en CSS es un concepto fundamental que describe cómo se representan los elementos HTML en una página web. 
+
+Componentes: 
+
+    1. Contenido: Es todo lo que está adentro de la caja, se modifica usando 'width' y 'heigth'.
+
+    2. Relleno(padding): Es es el espacio entre el contenido y la caja. Se puede abreviar solo con la propiedad 'padding' y usando los valores hacía la derecha comenzando desde la parte superior.
+
+    3. Borde: Es la línea que rodea el contenido y el relleno de la caja. Se usa 'border-width', 'border-style' y 'border-color'.
+
+    4. Margen: Es el espacio comprendido entre cajas. Se usa la propiedad 'margin', también se puede abreviar solo con la propiedad 'padding' y usando los valores hacía la derecha comenzando desde la parte superior.
+
+DISPLAY
+
+Puede cambiar el comportamiento predeterminado de un elemento, como convertir un elemento en línea en uno en bloque, o viceversa. Este atributo es extremadamente útil para el diseño y la estructuración de páginas web.
+
+Valores del atributo display:
+
+    1. 'block': Ocupa todo el ancho de la fila con una sola caja, la siguiente hace lo mismo pero con un salto de línea entre ellas. El display queda bloqueado y no es posible modificar la posición del contenido adentro de la caja.
+
+    2. 'inline': Los elementos contenidos en este se colocan uno al lado del otro, ocupando solo el espacio necesario sin necesidad de comenzar en otra línea.
+
+    3. 'inline-block': Combina las características de elementos en bloque y en línea. Ocupan solo el espacio necesario pero permiten establecer ancho y alto. Son útiles para colocar elementos uno al lado del otro y aún así permitir el control del tamaño y el espaciado.
+    
+    4. 'none': El elemento no se muestra en absoluto. Es como si el elemento estuviera completamente oculto y no ocupara ningún espacio en el diseño. Puede ser usado para crear elementos interactivos.
+
+    5. 'flex': Establece un contenedor como un contenedor flexible, lo que significa que sus elementos hijos se pueden organizar y distribuir de manera flexible en relación con el contenedor y entre ellos mismos. Este valor permite el uso del modelo de diseño flexbox, que es útil para crear diseños responsivos y complejos.
+
+    6. 'grow', 'shrink', 'basis': Estos tres valores están asociados con el modelo de caja flexible (flexbox) y se utilizan para definir cómo deben crecer, encogerse y cuál es el tamaño inicial de un elemento flexible.
+
+        *flex-grow: Determina cuánto espacio adicional puede ocupar un elemento flexible en relación con otros elementos flexibles dentro del mismo contenedor.
+
+        *flex-shrink: Determina cuánto puede encogerse un elemento flexible en relación con otros elementos flexibles dentro del mismo contenedor.
+
+        *flex-basis: Establece el tamaño inicial de un elemento flexible antes de que comience a distribuirse el espacio adicional o se apliquen los factores de encogimiento.
+        
+    7. 'display: table' establece un elemento como una tabla. Aunque HTML ya tiene elementos <table>, <tr>, <td>, entre otros, display: table permite crear tablas de manera más flexible sin necesidad de usar los elementos de tabla HTML, lo que puede ser útil para crear diseños específicos de tablas sin la semántica de una tabla HTML completa.
+
+    8. 'auto' se usa para que el navegador calcule automáticamente el tamaño de ciertas propiedades, como el ancho o alto de un elemento, en función de su contenido o contexto. Por ejemplo, width: auto permitirá que el ancho del elemento se ajuste automáticamente según el contenido o el espacio disponible.
+
+En resumen, estos valores son herramientas fundamentales para el diseño y la maquetación de páginas web en CSS, proporcionando formas flexibles y precisas de organizar y controlar la presentación de los elementos en la página.
+
+BEM en CSS
+
+BEM CSS es una metodología de nomenclatura para definir las clases en los nodos HTML del documento.
+
+Es decir, es una manera de nombrar las clases de los nodos de tu HTML para posteriormente atacarlos con CSS de una manera fácil, sencilla y clara.
+
+El objetivo de BEM es dar mucha más transparencia y claridad en tu estructura HTML y CSS.
+
+BEM te dice cómo se relacionan las clases entre sí, lo que es particularmente útil en secciones complejas del documento.
+
+Todas las clases del proyecto pueden encajar con esta filosofía.
+
+BEM son tres siglas.
+
+    B de bloque.
+    E de elemento.
+    M de modificador.
