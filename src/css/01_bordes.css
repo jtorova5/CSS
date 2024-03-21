@@ -13,6 +13,7 @@
     border-left-width: 100px; */
     /* border-width: 50px 60px 80px 100px; */
     border-width: 20px 80px;
+    border-radius: 10px;
 }
 
 p.dotted {
@@ -57,4 +58,61 @@ p.hidden {
 
 p.mix {
     border-style: dotted dashed solid double;
+}
+
+/* La propiedad border-width con tamaño especifico*/
+p.uno {
+    border-style: solid;
+    border-width: 5px 20px;
+    /* 5px top and bottom, 20px on the sides */
+}
+
+p.dos {
+    border-style: solid;
+    border-width: 20px 5px;
+    /* 20px top and bottom, 5px on the sides */
+}
+
+p.tres {
+    border-style: solid;
+    border-width: 25px 10px 4px 35px;
+    /* 25px top, 10px right, 4px bottom and 35px left */
+}
+
+.aang {
+    border: 50px solid #D0F1F2;
+    border-width: 10px 40px;
+}
+
+.zuko {
+    border: 10px dashed #F80E0E;
+    border-width: 10px 30px 2px 12px;
+}
+
+.katara {
+    border: 3px dotted #0DA1EE;
+    border-width: 15px 2px 6px 1px;
+    border-radius: 30px;
+}
+
+.toph {
+    border: 40px double #8E7E76;
+    border-right-width: 200px;
+    border-bottom-width: 10px;
+    border-radius: 13px;
+}
+
+.sokka {
+    border-top-color: #D0F1F2;
+    border-right-color: #F80E0E;
+    border-bottom-color: #0DA1EE;
+    border-left-color: #8E7E76;
+    border-top-style: solid;
+    border-right-style: dashed;
+    border-bottom-style: dotted;
+    border-left-style: double;
+    border-top-width: 20px;
+    border-right-width: 10px;
+    border-bottom-width: 40px;
+    border-left-width: 5px;
 }
