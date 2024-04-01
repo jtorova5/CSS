@@ -1,7 +1,12 @@
 
+*{
+    margin:0;
+    box-sizing: 0;
+}
+
 .contenedor {
-    border: 5px dashed blue;
-    height: 500px;
+    border: 5px dashed skyblue;
+    height: 700px;
 }
 
 .position {
@@ -19,12 +24,28 @@
 
 .relative {
     background-color: yellow;
+    position: relative;
+    top: 20px;
+    left: 5%;
+
 }
 
 .absolute {
-    background-color: skyblue;
+    background-color: lightblue;
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
 
 .fixed {
     background-color: greenyellow;
+    position: fixed;
+    top: 0;
+    left: 50%;
+}
+
+.sticky {
+    background-color: lightcoral;
+    position: sticky;
+    top:0
 }
